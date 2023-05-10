@@ -5,7 +5,7 @@
 	<groupId>com.rakkau.apps</groupId>
 	<artifactId>oidc-demoapp-spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -72,7 +72,7 @@
 											<descriptorRef>artifact</descriptorRef>
 										</assembly>
 										<env>
-											<ARTIFACT_COPY_ARGS>*.war</ARTIFACT_COPY_ARGS>
+											<ARTIFACT_COPY_ARGS>*.jar</ARTIFACT_COPY_ARGS>
 											<JAVA_APP_DIR>/deployments</JAVA_APP_DIR>
 										</env>
 										<ports>
