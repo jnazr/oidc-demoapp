@@ -81,6 +81,7 @@
 									</build>
 								</image>
 							</images>
+							<skip>false</skip>
 						</configuration>
 					</plugin>
 				</plugins>
